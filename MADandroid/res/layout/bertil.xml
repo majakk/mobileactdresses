@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/compassview"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:alwaysDrawnWithCache="true" android:animationCache="true" android:drawingCacheQuality="high">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hello" android:id="@+id/TextView01"></TextView>
+<TextView android:id="@+id/txt_info" android:layout_width="fill_parent"
+	android:text="@string/hello" android:textSize="14sp"
+	android:layout_margin="30dp" android:layout_height="wrap_content"></TextView>
+<TextView android:id="@+id/txt_direction" android:layout_width="fill_parent"
+	android:text="@string/hello" android:textSize="24sp"
+	android:layout_margin="30dp" android:layout_height="wrap_content"></TextView>
+	<View android:id="@+id/View03" android:layout_width="wrap_content" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bertil"></View>
+</LinearLayout>
