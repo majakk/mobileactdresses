@@ -45,6 +45,9 @@ public class BroadcastHandler extends BroadcastReceiver {
 	            }
 	        });
 	        builder.create().show();*/
+	        
+	        
+	        
 	    }
 	}
 

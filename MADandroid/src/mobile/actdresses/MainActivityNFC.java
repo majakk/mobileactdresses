@@ -13,6 +13,7 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.os.Bundle;
@@ -21,6 +22,7 @@ import android.os.IBinder;
 import android.os.Message;
 import android.os.Messenger;
 import android.os.RemoteException;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -28,6 +30,7 @@ import android.widget.Toast;
 public class MainActivityNFC extends Activity {
 	static String TAG = "NFCREADER";
 	
+	static String url1 = "market://search?q=pub:Mobile Life Centre";
 	
     /** Called when the activity is first created. */
     /*@Override
@@ -92,9 +95,9 @@ public class MainActivityNFC extends Activity {
 	    //info.setText(resultat); 
 	    Log.d(TAG, resultat);
 	    
-	    if(resultat.regionMatches(0, "D1", 0, 2)){
+	    if(resultat.regionMatches(0, "D5", 0, 2)){
 		    try {		    	
-		        pScratch = BitmapFactory.decodeResource(getResources(),R.drawable.scratch);
+		        pScratch = BitmapFactory.decodeResource(getResources(),R.drawable.design);
 				this.setWallpaper(pScratch);
 				
 			} catch (IOException e) {
@@ -103,12 +106,27 @@ public class MainActivityNFC extends Activity {
 				
 			}
 	    }
-	    else{
+	    else if(resultat.regionMatches(0, "30", 0, 2)){
 		    try {
-		    	pOlive = BitmapFactory.decodeResource(getResources(),R.drawable.olive);
-				this.setWallpaper(pOlive);
+		    	//pOlive = BitmapFactory.decodeResource(getResources(),R.drawable.olive);
+				//this.setWallpaper(pOlive);
+				Intent i = new Intent(Intent.ACTION_VIEW);  
+				i.setData(Uri.parse(url1));  
+				startActivity(i); 
 				
-			} catch (IOException e) {
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				
+			}
+	    }
+	    else if(resultat.regionMatches(0, "D4", 0, 2)){
+		    try {
+		    	Intent intent1 = new Intent(MediaStore.INTENT_ACTION_MUSIC_PLAYER);  	
+	        	intent1.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+	        	startActivity(intent1);
+				
+			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 				
