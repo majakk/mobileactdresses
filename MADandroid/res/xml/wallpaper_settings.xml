@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+		xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/wallpaper_settings"
+        android:key="wallpaper_settings">
+        
+     	<PreferenceCategory
+	        android:title="@string/wallpaper_category1">
+	    </PreferenceCategory>
+        
+<!--     	<ListPreference -->
+<!-- 	        android:key="livewallpaper_mode" -->
+<!-- 	        android:title="@string/livewallpaper_mode_title" -->
+<!-- 	        android:summary="@string/livewallpaper_mode_summary" -->
+<!-- 	        android:entries="@array/livewallpaper_mode_names" -->
+<!-- 	        android:entryValues="@array/livewallpaper_mode_prefix" -->
+<!-- 	        android:defaultValue="eyecandy"/>  -->
+<!-- 	    <ListPreference -->
+<!-- 	        android:key="livewallpaper_numofitems" -->
+<!-- 	        android:title="@string/livewallpaper_numofitems_title" -->
+<!-- 	        android:summary="@string/livewallpaper_numofitems_summary" -->
+<!-- 	        android:entries="@array/livewallpaper_numofitems_names" -->
+<!-- 	        android:entryValues="@array/livewallpaper_numofitems_prefix" -->
+<!-- 	        android:defaultValue="75"/> -->
+<!--     	<CheckBoxPreference  -->
+<!--     	    android:key="livewallpaper_flares" -->
+<!-- 	        android:summary="@string/livewallpaper_flares_summary" -->
+<!-- 	        android:title="@string/livewallpaper_flares_title" -->
+<!-- 	        android:summaryOn="Flares On" -->
+<!-- 	        android:summaryOff="Flares Off"  -->
+<!-- 	        android:defaultValue="true"/>	    -->
+	    
+<!-- 	    <PreferenceScreen -->
+<!-- 			xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!-- 			android:key="wallpaper_coldstream" -->
+<!-- 	        android:title="@string/livewallpaper_coldstream_title"	         -->
+<!-- 	        android:summary="@string/livewallpaper_coldstream_summary"  -->
+<!-- 	        android:enabled="false"> -->
+<!--         </PreferenceScreen> -->
+        
+<!-- 	    <PreferenceCategory -->
+<!-- 	        android:title="@string/wallpaper_category2"> -->
+<!-- 	    </PreferenceCategory> -->
+	    
+<!-- 	    <studio.coldstream.minecraftlwp.android.preference.ListPreferenceMultiSelect -->
+<!-- 	        android:key="livewallpaper_selectsprites" -->
+<!-- 	        android:title="@string/livewallpaper_selectsprites_title" -->
+<!-- 	        android:summary="@string/livewallpaper_selectsprites_summary"  -->
+<!--  	        android:entries="@array/livewallpaper_selectsprites_names"  -->
+<!--  	        android:entryValues="@array/livewallpaper_selectsprites_prefix" -->
+<!--  	        android:defaultValue=""/> -->
+<!--     	<ListPreference -->
+<!-- 	        android:key="livewallpaper_brightness" -->
+<!-- 	        android:title="@string/livewallpaper_brightness_title" -->
+<!-- 	        android:summary="@string/livewallpaper_brightness_summary" -->
+<!-- 	        android:entries="@array/livewallpaper_brightness_names" -->
+<!-- 	        android:entryValues="@array/livewallpaper_brightness_prefix" -->
+<!-- 	        android:defaultValue="6"/> -->
+<!-- 	  	<ListPreference -->
+<!-- 	        android:key="livewallpaper_transparency" -->
+<!-- 	        android:title="@string/livewallpaper_transparency_title" -->
+<!-- 	        android:summary="@string/livewallpaper_transparency_summary" -->
+<!-- 	        android:entries="@array/livewallpaper_transparency_names" -->
+<!-- 	        android:entryValues="@array/livewallpaper_transparency_prefix" -->
+<!-- 	        android:defaultValue="1"/>     -->
+	        
+<!-- 	  	<PreferenceCategory -->
+<!-- 	        android:title="@string/wallpaper_category3"> -->
+<!-- 	    </PreferenceCategory> -->
+	    
+<!-- 	  	<ListPreference -->
+<!-- 	        android:key="livewallpaper_red" -->
+<!-- 	        android:title="@string/livewallpaper_red_title" -->
+<!-- 	        android:summary="@string/livewallpaper_red_summary" -->
+<!-- 	        android:entries="@array/livewallpaper_color_names" -->
+<!-- 	        android:entryValues="@array/livewallpaper_color_prefix" -->
+<!-- 	        android:defaultValue="1"/>	  	 -->
+<!-- 	  	<ListPreference -->
+<!-- 	        android:key="livewallpaper_green" -->
+<!-- 	        android:title="@string/livewallpaper_green_title" -->
+<!-- 	        android:summary="@string/livewallpaper_green_summary" -->
+<!-- 	        android:entries="@array/livewallpaper_color_names" -->
+<!-- 	        android:entryValues="@array/livewallpaper_color_prefix" -->
+<!-- 	        android:defaultValue="1"/> -->
+<!-- 	  	<ListPreference -->
+<!-- 	        android:key="livewallpaper_blue" -->
+<!-- 	        android:title="@string/livewallpaper_blue_title" -->
+<!-- 	        android:summary="@string/livewallpaper_blue_summary" -->
+<!-- 	        android:entries="@array/livewallpaper_color_names" -->
+<!-- 	        android:entryValues="@array/livewallpaper_color_prefix" -->
+<!-- 	        android:defaultValue="1"/> -->
+	  	
+<!-- 	  	<PreferenceCategory -->
+<!-- 	        android:title="@string/wallpaper_category4"> -->
+<!-- 	    </PreferenceCategory> -->
+	    
+<!-- 	  	<CheckBoxPreference  -->
+<!--     	    android:key="livewallpaper_scroll" -->
+<!-- 	        android:summary="@string/livewallpaper_scroll_summary" -->
+<!-- 	        android:title="@string/livewallpaper_scroll_title" -->
+<!-- 	        android:summaryOn="Scrolling On" -->
+<!-- 	        android:summaryOff="Scrolling Off"  -->
+<!-- 	        android:defaultValue="true"/> -->
+<!-- 	    <ListPreference -->
+<!-- 	        android:key="livewallpaper_framerate" -->
+<!-- 	        android:title="@string/livewallpaper_framerate_title" -->
+<!-- 	        android:summary="@string/livewallpaper_framerate_summary" -->
+<!-- 	        android:entries="@array/livewallpaper_framerate_names" -->
+<!-- 	        android:entryValues="@array/livewallpaper_framerate_prefix" -->
+<!-- 	        android:defaultValue="32"/> -->
+	  	
+	  	
+	  	<PreferenceScreen
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:key="wallpaper_space"
+	        android:title=""	        
+	        android:summary="" 
+	        android:enabled="false">
+        </PreferenceScreen>
+	    
+</PreferenceScreen>

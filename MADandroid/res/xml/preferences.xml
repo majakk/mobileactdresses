@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen     
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:mtr="http://schemas.android.com/res/studio.coldstream.minecraftlwp.android"
+	android:key="prefKey" >
+	<studio.coldstream.minecraftlwp.android.preference.ListPreferenceMultiSelect
+		mtr:checkAll="check"
+		mtr:separator="|"
+		android:defaultValue="#ALL#"
+	    android:key="@string/pref_upload_buckets_image"
+	    android:title="Image folders to monitor"
+	    android:dialogTitle="Image folders to monitor"
+	    android:summary="Specify which folders should be monitored for images"
+	    android:entries="@array/pref_upload_buckets_default_entries"
+	    android:entryValues="@array/pref_upload_buckets_default_values" />
+</PreferenceScreen>

@@ -4,6 +4,15 @@
     <string name="app_name">MADandroid</string>
 
 
-<string name="buttonStartText">Start</string>
-<string name="buttonStopText">Stop</string>
+	<string name="buttonStartText">Start</string>
+	<string name="buttonStopText">Stop</string>
+	
+	<string name="app_name_short">MAD</string>
+	<string name="wallpaper_settings">Settings</string>
+	
+	<string name="pref_upload_buckets_image">pubi</string>
+	
+	<string name="wallpaper_category1">Category 1</string>
+	
+	<string name="wallpaper_description">MAD is experimental stuff</string>
 </resources>

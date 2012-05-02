@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="livewallpaper_mode_names">
+        <item>"Eyecandy"</item>
+        <item>"Carnivore"</item>
+        <item>"Sugar Rush"</item>
+        <item>"Slender"</item>
+    </string-array>
+
+    <string-array name="livewallpaper_mode_prefix">
+        <item>"eyecandy"</item>
+        <item>"carnivore"</item>
+        <item>"sugarrush"</item>
+        <item>"slender"</item>
+    </string-array>    
+    
+    <string-array name="livewallpaper_numofitems_names">
+        <item>"25"</item>
+        <item>"50"</item>
+        <item>"75"</item>
+        <item>"100"</item>        
+    </string-array>
+
+    <string-array name="livewallpaper_numofitems_prefix">
+        <item>"25"</item>
+        <item>"50"</item>
+        <item>"75"</item>
+        <item>"100"</item>       
+    </string-array>  
+    
+    <string-array name="livewallpaper_brightness_names">
+        <item>"100 %"</item>
+        <item>"90 %"</item>
+        <item>"80 %"</item>
+        <item>"70 %"</item>
+        <item>"60 %"</item>
+        <item>"50 %"</item>                
+    </string-array>
+    
+    <string-array name="livewallpaper_brightness_prefix">
+        <item>"10"</item>
+        <item>"9"</item>
+        <item>"8"</item>
+        <item>"7"</item>
+        <item>"6"</item>
+        <item>"5"</item>                
+    </string-array>       
+    
+    <string-array name="livewallpaper_transparency_names">
+        <item>"0 %"</item>
+        <item>"10 %"</item>
+        <item>"20 %"</item>
+        <item>"30 %"</item>        
+    </string-array>
+    
+    <string-array name="livewallpaper_transparency_prefix">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>       
+    </string-array>  
+    
+    <string-array name="livewallpaper_framerate_names">
+        <item>"16 Hz"</item>
+        <item>"24 Hz"</item>
+        <item>"32 Hz"</item>
+        <item>"40 Hz"</item>
+        <item>"48 Hz"</item>
+        <item>"56 Hz"</item>
+        <item>"64 Hz"</item>                
+    </string-array>
+
+    <string-array name="livewallpaper_framerate_prefix">
+        <item>"16"</item>
+        <item>"24"</item>
+        <item>"32"</item>
+        <item>"40"</item>
+        <item>"48"</item>      
+        <item>"56"</item>
+        <item>"64"</item>       
+    </string-array>    
+
+      
+    
+    <string-array name="livewallpaper_color_names">
+        <item>"0 %"</item>
+        <item>"10 %"</item>
+        <item>"20 %"</item>
+        <item>"30 %"</item>
+        <item>"40 %"</item>
+        <item>"50 %"</item>
+        <item>"60 %"</item>
+        <item>"70 %"</item>
+        <item>"80 %"</item>
+        <item>"90 %"</item>
+        <item>"100 %"</item>
+                
+    </string-array>
+
+    <string-array name="livewallpaper_color_prefix">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>      
+        <item>"4"</item>
+        <item>"5"</item>          
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>      
+        <item>"9"</item>
+        <item>"10"</item> 
+    </string-array>    
+    
+    <string-array name="livewallpaper_selectsprites_names">
+        <item>"Apple"</item>
+        <item>"Arrow"</item>
+        <item>"Bed"</item>
+        <item>"Blaze Powder"</item>
+        <item>"Bread"</item>
+        <item>"Brick"</item>
+        
+        
+        <item>"Bone"</item>
+        <item>"Book"</item>
+        <item>"Cake"</item>
+        <item>"Chicken Egg"</item>        
+        <item>"Cooked Chicken"</item> 
+        <item>"Cooked Fish"</item>
+        <item>"Cookie"</item>
+        
+        <item>"Diamond"</item>
+        <item>"Diamond Pickaxe</item>
+        <item>"Ender Pearl"</item>
+        <item>"Eye of Ender"</item>
+        <item>"Feather"</item>
+        <item>"Fire Charge"</item>
+        <item>"Flint"</item>
+        <item>"Glass Bottle"</item>
+        <item>"Glistering Melon"</item>
+        <item>"Glowstone Dust"</item>
+        <item>"Gold Ingot"</item>
+        
+        
+        <item>"Golden Apple"</item>
+        <item>"Gunpowder"</item>
+        <item>"Iron Ingot"</item>
+        <item>"Iron Sword"</item>
+        <item>"Leather"</item>
+        <item>"Magma Cream"</item>
+        <item>"Melon Slice"</item>
+        
+        <item>"Mushroom Stew"</item>
+        <item>"Music Disc 1"</item>
+        <item>"Music Disc 2"</item>
+        <item>"Music Disc 3"</item>
+        <item>"Music Disc 4"</item>
+        <item>"Music Disc 5"</item>
+        <item>"Potions"</item>
+        <item>"Raw Beef"</item>
+        <item>"Redstone Dust"</item>
+        
+        
+        <item>"Steak"</item>
+        <item>"Slimeball"</item>
+        <item>"Snowball"</item>
+        <item>"Sugar"</item>
+        <item>"Sugar Cane"</item>
+        <item>"Wheat"</item>
+    </string-array>
+
+    <string-array name="livewallpaper_selectsprites_prefix">
+        <item>"10"</item>
+        <item>"37"</item>
+        <item>"45"</item>
+        <item>"157"</item>
+        <item>"41"</item>
+        <item>"22"</item>
+        
+        
+        <item>"28"</item>
+        <item>"59"</item>
+        <item>"29"</item>
+        <item>"12"</item>
+        <item>"122"</item>
+        <item>"90"</item>
+        <item>"92"</item>
+                
+        <item>"55"</item>
+        <item>"99"</item>
+        <item>"107"</item>
+        <item>"155"</item>
+        <item>"24"</item>
+        <item>"46"</item>
+        <item>"6"</item>
+        <item>"140"</item>
+        <item>"137"</item>
+        <item>"73"</item>
+        <item>"39"</item>
+        
+        
+        <item>"11"</item>
+        <item>"40"</item>
+        <item>"23"</item>
+        <item>"66"</item>
+        <item>"103"</item>
+        <item>"173"</item>
+        <item>"109"</item>
+        
+        <item>"72"</item>
+        <item>"240"</item>
+        <item>"241"</item>
+        <item>"242"</item>
+        <item>"243"</item>
+        <item>"244"</item>
+        <item>"141"</item>
+        <item>"105"</item>
+        <item>"56"</item>
+        
+        
+        <item>"106"</item>
+        <item>"30"</item>
+        <item>"14"</item>
+        <item>"13"</item>
+        <item>"27"</item>
+        <item>"25"</item>
+    </string-array>    
+    
+    <string-array name="pref_upload_buckets_default_entries">
+		<item>All</item>
+		<item>Test1</item>
+		<item>Test2</item>
+	</string-array>
+	<string-array name="pref_upload_buckets_default_values">
+		<item>#ALL#</item>
+		<item>Test1 Value</item>
+		<item>Test2 Value</item>
+	</string-array>
+    
+</resources>

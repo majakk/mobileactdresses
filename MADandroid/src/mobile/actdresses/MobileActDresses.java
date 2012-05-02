@@ -19,8 +19,8 @@ public class MobileActDresses extends Activity implements OnClickListener {
 		    super.onCreate(savedInstanceState);
 		    setContentView(R.layout.main);
 
-		    buttonStart = (Button) findViewById(R.id.buttonStart);
-		    buttonStop = (Button) findViewById(R.id.buttonStop);
+		    buttonStart = (Button) findViewById(R.id.button1);
+		    buttonStop = (Button) findViewById(R.id.button2);
 
 		    buttonStart.setOnClickListener(this);
 		    buttonStop.setOnClickListener(this);
@@ -28,11 +28,11 @@ public class MobileActDresses extends Activity implements OnClickListener {
 
 		  public void onClick(View src) {
 		    switch (src.getId()) {
-		    case R.id.buttonStart:
+		    case R.id.button1:
 		      Log.d(TAG, "onClick: starting srvice");
 		      startService(new Intent(this, MADService.class));
 		      break;
-		    case R.id.buttonStop:
+		    case R.id.button2:
 		      Log.d(TAG, "onClick: stopping srvice");
 		      stopService(new Intent(this, MADService.class));
 		      break;
